@@ -6,3 +6,7 @@ We need to initialize a respository so that we can start tracking changes to our
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Staging area is an intermediate stage between the working directory and the repository. It shows files that will be committed when we do a git commit. It gives us an idea of the files that will be committed.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Staging aread gives a view of what files have changed as compared to the most recent commit. This will help us to add or remove files from the staging area so that we ensure we have one commit per logical change.
