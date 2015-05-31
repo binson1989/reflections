@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+It creates a .git folder inside any existing directory  containing files, or a new directory. It shows the number of untracked files present in the directory.
+We need to initialize a respository so that we can start tracking changes to our files.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area is an intermediate stage between the working directory and the repository. It shows files that will be committed when we do a git commit. It gives us an idea of the files that will be committed.
