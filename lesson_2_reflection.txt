@@ -14,3 +14,7 @@ Staging aread gives a view of what files have changed as compared to the most re
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Branches are helpful when we want to try out some experimental features keeping the master branch intact.
+
+How do the diagrams help you visualize the branch structure?
+
+It helps determine reachability, every branch only shows the commits that it can trace back. Each commit that we make has a parent reference to the previous commit of the branch. If suppose we checkout a particular commit, and commit some changes on top of it, that commit will be lost since it can't be tracked from any of the branches. In such situations, its better to create a new branch with that commit, and make changes on top of it.
