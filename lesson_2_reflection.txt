@@ -22,3 +22,7 @@ It helps determine reachability, every branch only shows the commits that it can
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 Mergin 2 branches will merge the changes in both the branches. Representing it in the form of a diagram helps us to visualize the changes present before the branch was made as well as the changes in the master branch ater the branch was made.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging handles merges wherein changes are done in different areas of a file. If changes are in the same area, its better to merge manually.
