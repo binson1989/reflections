@@ -11,3 +11,7 @@ Describe the differences between forks, clones, and branches. When would you use
 Forking is done to clone someone's repository onto our github account directly. Then we can clone our forked repository and make changes and push them to our forked repository. This is primarily done because we do not have permission to make changes to that someone's repository.
 Cloning is done to make a clone of a repository either existing in github or locally as well. It also gets the entire commit history as well alongwith it.
 Branching is done when we want to try out some features without hampering the master production branch.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+This helps maintain history as we progress on making commits locally. At last when we try pulling from the remote, this will help in merging.
